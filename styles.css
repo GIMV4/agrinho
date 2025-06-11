@@ -149,3 +149,34 @@ footer {
     transform: translateY(-10px) scale(1.05);
     box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2);
 }
+.conteudo h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--verde);
+    margin-bottom: 15px;
+    font-size: 2.8rem;
+}
+
+.conteudo p {
+    line-height: 1.6;
+    color: var(--preto);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.conteudo ul {
+    list-style-type: none;
+    font-size: 1.8rem;
+}
+
+.conteudo ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--azul-claro);
+    transition: transform 0.5s ease;
+    color: var(--preto);
+}
+
+.conteudo ul li:hover {
+    transform: translateX(10px);
+    color: var(--verde);
+}
