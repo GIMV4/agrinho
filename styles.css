@@ -180,3 +180,20 @@ footer {
     transform: translateX(10px);
     color: var(--verde);
 }
+.conteudo ul li .block {
+    display: none;
+}
+
+.conteudo ul li:hover .block {
+    display: block;
+    text-align: justify;
+    color: var(--marinho);
+    margin-bottom: 5px;
+}
+.conteudo ul li:hover .opacidade {
+    opacity: 1;
+    max-height: 320px;
+    text-align: justify;
+    color: var(--marinho);
+    margin-bottom: 5px;
+}
