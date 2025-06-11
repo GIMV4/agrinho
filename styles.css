@@ -144,6 +144,7 @@ footer {
     min-width: 280px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: medium;
 }
 
 .conteudo:hover {
