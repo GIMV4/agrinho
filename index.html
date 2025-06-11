@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2025 - Competências para o Futuro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Agrinho 2025</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#competencias">Competências</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h2>Desenvolvendo as Competências do Futuro no Campo</h2>
+        <p>Inovação, sustentabilidade e educação para o campo.</p>
+    </section>
+
+    <!-- Competências -->
+    <section id="competencias">
+        <h2>Competências Agrinho 2025</h2>
+        <div class="competencias-container">
+            <div class="competencia">
+                <h3>Educação Ambiental</h3>
+                <p>Desenvolvimento de soluções sustentáveis e práticas agrícolas responsáveis.</p>
+                <button onclick="mostrarDetalhes('educacao-ambiental')">Ver Detalhes</button>
+                <div id="educacao-ambiental" class="detalhes" style="display:none;">
+                    <p>Aplicação de práticas sustentáveis no campo e o impacto das ações ambientais.</p>
+                </div>
+            </div>
+
+            <div class="competencia">
+                <h3>Tecnologia no Campo</h3>
+                <p>Uso de tecnologias como drones, sensores e dados para otimizar a produção agrícola.</p>
+                <button onclick="mostrarDetalhes('tecnologia-campo')">Ver Detalhes</button>
+                <div id="tecnologia-campo" class="detalhes" style="display:none;">
+                    <p>Exploração das tecnologias de precisão para aumentar a produtividade e sustentabilidade.</p>
+                </div>
+            </div>
+
+            <div class="competencia">
+                <h3>Empreendedorismo Rural</h3>
+                <p>Como criar negócios rurais sustentáveis e inovadores.</p>
+                <button onclick="mostrarDetalhes('empreendedorismo-rural')">Ver Detalhes</button>
+                <div id="empreendedorismo-rural" class="detalhes" style="display:none;">
+                    <p>Transformação das ideias em negócios reais para o setor agrícola.</p>
+                </div>
+            </div>
+
+            <div class="competencia">
+                <h3>Cidadania e Inclusão Social</h3>
+                <p>Promoção da inclusão e da igualdade nas comunidades rurais.</p>
+                <button onclick="mostrarDetalhes('inclusao-social')">Ver Detalhes</button>
+                <div id="inclusao-social" class="detalhes" style="display:none;">
+                    <p>Promoção da igualdade de oportunidades no meio rural e integração social.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos">
+        <h2>Projetos Agrinho 2025</h2>
+        <p>Inspire-se com exemplos de projetos de sucesso aplicando as competências do Agrinho 2025.</p>
+        <button onclick="mostrarProjetos()">Ver Projetos</button>
+        <div id="projetos-lista" class="projetos-lista" style="display:none;">
+            <ul>
+                <li>Projeto 1: Agricultura Sustentável com Drones</li>
+                <li>Projeto 2: Empreendimento Rural Inclusivo</li>
+                <li>Projeto 3: Tecnologias para o Ensino Agrícola</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Recursos -->
+    <section id="recursos">
+        <h2>Recursos Educacionais</h2>
+        <p>Acesse materiais, guias e vídeos para apoiar seu aprendizado e ensino sobre as competências do Agrinho 2025.</p>
+        <ul>
+            <li><a href="#">Plano de Aula - Educação Ambiental</a></li>
+            <li><a href="#">Vídeo Tutorial - Agricultura de Precisão</a></li>
+            <li><a href="#">Material de Apoio - Empreendedorismo Rural</a></li>
+        </ul>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Agrinho. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
