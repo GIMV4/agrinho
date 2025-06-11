@@ -133,6 +133,7 @@ footer {
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
+    max-width: 200px;
 }
 
 .conteudo {
