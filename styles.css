@@ -51,8 +51,7 @@ section h2 {
 
 .competencias-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 
 .competencia {
