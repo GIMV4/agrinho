@@ -176,18 +176,19 @@ footer {
 .conteudo ul {
     list-style-type: none;
     font-size: 0.8rem;
+    color: #333;
 }
 
 .conteudo ul li {
     padding: 10px 0;
     border-bottom: 1px solid var(--azul-claro);
     transition: transform 0.5s ease;
-    color: var(--preto);
+    color: #333
 }
 
 .conteudo ul li:hover {
     transform: translateX(10px);
-    color: var(--verde);
+    color:#c3b70e
 }
 .conteudo ul li .block {
     display: none;
@@ -198,7 +199,6 @@ footer {
     text-align: justify;
     color: var(--marinho);
     margin-bottom: 5px;
-    color: #c3b70e;
 }
 .conteudo ul li:hover .opacidade {
     opacity: 1;
