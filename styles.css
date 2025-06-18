@@ -151,6 +151,8 @@ footer {
 .conteudo:hover {
     transform: translateY(-10px) scale(1.05);
     box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2);
+    color: #c3b70e;
+
 }
 .conteudo h2 {
     display: flex;
@@ -158,6 +160,7 @@ footer {
     color: var(--verde);
     margin-bottom: 15px;
     font-size: 1.8rem;
+    color: #c3b70e;
 }
 
 .conteudo p {
