@@ -160,7 +160,7 @@ footer {
     color: var(--verde);
     margin-bottom: 15px;
     font-size: 1.8rem;
-    color: #c3b70e;
+    
 }
 
 .conteudo p {
@@ -195,6 +195,7 @@ footer {
     text-align: justify;
     color: var(--marinho);
     margin-bottom: 5px;
+    color: #c3b70e;
 }
 .conteudo ul li:hover .opacidade {
     opacity: 1;
